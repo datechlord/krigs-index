@@ -24,7 +24,7 @@ export default () => {
         subheading={<Subheading>GET WHITELISTED WITH THE FOLLOWING STEP</Subheading>}
         heading={
           <>
-            How to <HighlightedText>BUY KRIGS TOKEN.</HighlightedText>
+            HOW TO <HighlightedText>BUY KRIGS TOKEN.</HighlightedText>
           </>
         }
         textOnLeft={false}
