@@ -5,7 +5,11 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import MainFeature from "components/features/TwoColWithButton.js";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
+import heroScreenshotImageSrc from "images/hero-screenshot-1.png";
+import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
+
 export default () => {
+  const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const imageCss = tw`rounded-4xl`;
   return (
