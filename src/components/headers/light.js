@@ -73,8 +73,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLinks = [
     <NavLinks key={1}>
       <NavLink href="/#">Home</NavLink>
-      <NavLink href="/#">About</NavLink>
-      <NavLink href="/#">Features</NavLink>
+      <NavLink href="/#">Tokenonmics</NavLink>
       <NavLink href="/#">Blog</NavLink>
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="/#">Telegram</PrimaryLink>
     </NavLinks>

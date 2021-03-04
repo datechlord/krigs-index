@@ -9,7 +9,6 @@ import Header from "../headers/light.js";
 import ReactModalAdapter from "../../helpers/ReactModalAdapter.js";
 import ResponsiveVideoEmbed from "../../helpers/ResponsiveVideoEmbed.js";
 
-import { ReactComponent as PlayIcon } from "feather-icons/dist/icons/play-circle.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/dot-pattern.svg";
@@ -63,8 +62,6 @@ export default ({
  description="A decentralized P2P insurance marketplace with easy claims and instant payouts. Powered by Polkadot.",
   primaryButtonText="Get Started",
   primaryButtonUrl="https://t.me/tbcclubinternational",
-  watchVideoButtonText="Watch Video",
-  watchVideoYoutubeUrl="https://www.youtube.com/embed/_GuOjXYl5ew",
   imageSrc=DesignIllustration,
   imageCss=null,
   imageDecoratorBlob = false,
@@ -83,12 +80,6 @@ export default ({
             <Paragraph>{description}</Paragraph>
             <Actions>
               <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
-              <WatchVideoButton onClick={toggleModal}>
-                <span className="playIconContainer">
-                  <PlayIcon className="playIcon" />
-                </span>
-                <span className="playText">{watchVideoButtonText}</span>
-              </WatchVideoButton>
             </Actions>
           </LeftColumn>
           <RightColumn>
