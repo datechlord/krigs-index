@@ -3,7 +3,6 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
-import DownloadApp from "components/cta/DownloadApp.js";
 import Footer from "components/footers/FiveColumnWithInputForm.js";
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -17,12 +16,8 @@ export default () => {
       imageSrc="https://tbcclubinternational.com/images/insured-hero-image.svg"
       imageCss={imageCss}
       imageDecoratorBlob={true}
-      primaryButtonText="join"
+      primaryButtonText="Join Community"
     />
-
-      <DownloadApp
-        text={<>People around you are ordering delicious meals using the <HighlightedTextInverse>Treact App.</HighlightedTextInverse></>}
-      />
       <Footer />
     </AnimationRevealPage>
   );
