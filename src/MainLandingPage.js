@@ -3,6 +3,8 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
+import MainFeature from "components/features/TwoColWithButton.js";
+import FeatureWithSteps from "components/features/TwoColWithSteps.js";
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const imageCss = tw`rounded-4xl`;
@@ -16,6 +18,25 @@ export default () => {
       imageDecoratorBlob={true}
       primaryButtonText="Join Community"
     />
+    <MainFeature
+        subheading={<Subheading>Quality Work</Subheading>}
+        imageSrc={heroScreenshotImageSrc}
+        imageBorder={true}
+        imageDecoratorBlob={true}
+      />
+      <FeatureWithSteps
+        subheading={<Subheading>STEPS</Subheading>}
+        heading={
+          <>
+            Easy to <HighlightedText>Get Started.</HighlightedText>
+          </>
+        }
+        textOnLeft={false}
+        imageSrc={macHeroScreenshotImageSrc}
+        imageDecoratorBlob={true}
+        decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
+      />
     </AnimationRevealPage>
+    
   );
 }
