@@ -5,19 +5,16 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import DownloadApp from "components/cta/DownloadApp.js";
 import Footer from "components/footers/FiveColumnWithInputForm.js";
-import krigsbgImageSrc  from "images/krigs-bg.svg"
 export default () => {
-  const Subheading = tw.span`tracking-wider text-sm font-medium`;
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
-  const Description = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-4xl`;
   return (
     <AnimationRevealPage>
     <Hero
       heading={<>Building the Future of Digital Asset <HighlightedText> Insurance</HighlightedText></>}
       description="A decentralized P2P insurance marketplace with easy claims and instant payouts. Powered by Polkadot."
-      imageSrc="krigsbgImageSrc"
+      imageSrc=""
       imageCss={imageCss}
       imageDecoratorBlob={true}
       primaryButtonText="join"
