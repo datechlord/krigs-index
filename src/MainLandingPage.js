@@ -5,7 +5,6 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
-import Features from "components/features/DashedBorderSixFeatures";
 
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
@@ -21,9 +20,8 @@ export default () => {
       imageDecoratorBlob={true}
       primaryButtonText="Join Community"
     />
-        <Features />
       <FeatureWithSteps
-        subheading={<Subheading>STEPS</Subheading>}
+        subheading={<Subheading>GET WHITELISTED WITH THE FOLLOWING STEP</Subheading>}
         heading={
           <>
             Easy to <HighlightedText>Get Started.</HighlightedText>
