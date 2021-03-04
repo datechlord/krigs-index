@@ -4,7 +4,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
-import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
+import macHeroScreenshotImageSrc from "images/krigs-logo.png";
 
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
