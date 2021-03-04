@@ -3,10 +3,10 @@ import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
-import MainFeature from "components/features/TwoColWithButton.js";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
-import heroScreenshotImageSrc from "images/hero-screenshot-1.png";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
+import MainFeature2 from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
+
 
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
@@ -22,11 +22,29 @@ export default () => {
       imageDecoratorBlob={true}
       primaryButtonText="Join Community"
     />
-    <MainFeature
-        subheading={<Subheading>Quality Work</Subheading>}
-        imageSrc={heroScreenshotImageSrc}
-        imageBorder={true}
-        imageDecoratorBlob={true}
+    <MainFeature2
+        subheading={<Subheading>VALUES</Subheading>}
+        heading={
+          <>
+            We Always Abide by Our <HighlightedText>Principles.</HighlightedText>
+          </>
+        }
+        imageSrc={prototypeIllustrationImageSrc}
+        showDecoratorBlob={false}
+        features={[
+          {
+            Icon: MoneyIcon,
+            title: "Affordable",
+            description: "We promise to offer you the best rate we can - at par with the industry standard.",
+            iconContainerCss: tw`bg-green-300 text-green-800`
+          },
+          {
+            Icon: BriefcaseIcon,
+            title: "Professionalism",
+            description: "We assure you that our templates are designed and created by professional designers.",
+            iconContainerCss: tw`bg-red-300 text-red-800`
+          }
+        ]}
       />
       <FeatureWithSteps
         subheading={<Subheading>STEPS</Subheading>}
