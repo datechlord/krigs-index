@@ -6,6 +6,10 @@ import Hero from "components/hero/TwoColumnWithVideo.js";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import MainFeature2 from "components/features/TwoColWithTwoHorizontalFeaturesAndButton.js";
+import prototypeIllustrationImageSrc from "images/prototype-illustration.svg";
+import { ReactComponent as BriefcaseIcon } from "feather-icons/dist/icons/briefcase.svg";
+import { ReactComponent as MoneyIcon } from "feather-icons/dist/icons/dollar-sign.svg";
+
 
 
 export default () => {
