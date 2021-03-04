@@ -47,6 +47,18 @@ export default () => {
             title: "Professionalism",
             description: "We assure you that our templates are designed and created by professional designers.",
             iconContainerCss: tw`bg-red-300 text-red-800`
+          },
+          {
+            Icon: BriefcaseIcon,
+            title: "Professionalism",
+            description: "We assure you that our templates are designed and created by professional designers.",
+            iconContainerCss: tw`bg-red-300 text-red-800`
+          },
+          {
+            Icon: BriefcaseIcon,
+            title: "Professionalism",
+            description: "We assure you that our templates are designed and created by professional designers.",
+            iconContainerCss: tw`bg-red-300 text-red-800`
           }
         ]}
       />
