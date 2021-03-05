@@ -59,16 +59,16 @@ export default ({
 
   const defaultSteps = [
     {
-      heading: "Register",
-      description: "Create an account with us using Google or Facebook."
+      heading: "Register an account",
+      description: "Create an account to join KRIGS Token Private sale"
     },
     {
-      heading: "Download",
-      description: "Browse and Download the template that you like from the marketplace."
+      heading: "Get whitelisted",
+      description: "Get whiltelisted to get exclusive deals earlier"
     },
     {
-      heading: "Run",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      heading: "Buy Krigs",
+      description: "Buy KRIGS Token on private sale with 1 KRIGS - $0.06"
     }
   ];
 
