@@ -59,10 +59,6 @@ export default ({
 
   const defaultSteps = [
     {
-      heading: "Register an account",
-      description: "Create an account to join KRIGS Token Private sale"
-    },
-    {
       heading: "Get whitelisted",
       description: "Get whiltelisted to get exclusive deals earlier"
     },
