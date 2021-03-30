@@ -14,7 +14,7 @@ export default () => {
       imageSrc="https://finrocks.com/images/blockchain/hero-img.svg"
       imageCss={imageCss}
       imageDecoratorBlob={true}
-      primaryButtonText="Join Community"
+      primaryButtonText="Read The Docs"
     />
     </AnimationRevealPage>
     
