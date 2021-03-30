@@ -48,10 +48,10 @@ export default () => {
             <SocialLink href="https://facebook.com">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
+            <SocialLink href="https://twitter.com/krigsfinance">
               <TwitterIcon />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
+            <SocialLink href="https://www.youtube.com/channel/UCuRHEVVbaNODx5EVlcUg8RQ">
               <YoutubeIcon />
             </SocialLink>
           </SocialLinksContainer>
