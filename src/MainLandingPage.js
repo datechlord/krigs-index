@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
-import Footer from "components/footers/FiveColumnDark.js";
+import Footer from "components/footers/MiniCenteredFooter.js";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
