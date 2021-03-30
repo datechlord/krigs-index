@@ -93,7 +93,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   links = links || defaultLinks;
 
   return (
-    <Header className={className || "header-light"}>
+    <Header className={className || "header-dark"}>
       <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks}>
         {logoLink}
         {links}
