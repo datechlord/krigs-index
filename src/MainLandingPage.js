@@ -4,6 +4,8 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import MainFeature from "components/features/TwoColWithButton.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
+import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
+
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -18,6 +20,7 @@ export default () => {
       imageDecoratorBlob={true}
       primaryButtonText="Read The Docs"
     />
+    <FeatureStats/>
         <MainFeature />
       <Footer />
     </AnimationRevealPage>
