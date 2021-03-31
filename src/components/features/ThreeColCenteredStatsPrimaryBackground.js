@@ -35,8 +35,18 @@ export default ({
     },
 
     {
+      key: "Decimal",
+      value: "18",
+    },
+
+    {
       key: "Token Supply",
       value: "150 Million",
+    },
+
+    {
+      key: "Token Price in USD",
+      value: "$0.50",
     },
   ]
 }) => {
