@@ -18,8 +18,8 @@ const StatValue = tw.div`text-4xl sm:text-3xl md:text-4xl lg:text-5xl font-black
 
 export default ({
   subheading = "",
-  heading = "Instant Payouts and Full Collateralization",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  heading = "Frictionless Yield Generation. Hold and Earn.",
+  description = "KRIGS works by applying a 1% fee to each transaction and instantly splitting that fee among all holders of the token. Holders do not need to stake or wait for fees to be delivered. Fees are awarded by the smart contract and are immediately reflected in the holders balance.",
   stats = [
     {
       key: "Token Name",
@@ -29,6 +29,11 @@ export default ({
       key: "Ticker Symbol",
       value: "Krigs",
     },
+    {
+      key: "Token Type",
+      value: "BEP20",
+    },
+
     {
       key: "Token Type",
       value: "BEP-20",
