@@ -22,15 +22,27 @@ export default ({
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   stats = [
     {
-      key: "Clients",
-      value: "2500+",
+      key: "Token Name",
+      value: "Krigs Finance",
     },
     {
-      key: "Revenue",
-      value: "$100M+",
+      key: "Ticker Symbol",
+      value: "Krigs",
     },
     {
-      key: "Employees",
+      key: "Token Type",
+      value: "BEP-20",
+    },
+
+    key: "Total Supply",
+      value: "150,00,000",
+    },
+
+    key: "Token Type",
+      value: "150+",
+    },
+
+    key: "Token Type",
       value: "150+",
     },
   ]
