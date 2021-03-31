@@ -44,10 +44,10 @@ export default ({
   subheading = "Our Expertise",
   heading = (
     <>
-      Designed & Developed by <span tw="text-primary-500">Professionals.</span>
+      A Blockchain-Based P2P <span tw="text-primary-500">Insurance Marketplace.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  description = "Underpinned by the Binance Smart Chain network, Krigs Finance is a P2P insurance marketplace. Market participants can easily request or provide coverage on a wide variety of cryptocurrency assets. Claims are fully collateralized and payouts are instant.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
