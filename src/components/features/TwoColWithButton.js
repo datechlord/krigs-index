@@ -41,14 +41,14 @@ const PrimaryButton = styled(PrimaryButtonBase)(props => [
 
 
 export default ({
-  subheading = "Our Expertise",
+  subheading = "Invest in Krigs Finance",
   heading = (
     <>
       A Blockchain-Based P2P <span tw="text-primary-500">Insurance Marketplace.</span>
     </>
   ),
   description = "Underpinned by the Binance Smart Chain network, Krigs Finance is a P2P insurance marketplace. Market participants can easily request or provide coverage on a wide variety of cryptocurrency assets. Claims are fully collateralized and payouts are instant.",
-  primaryButtonText = "Learn More",
+  primaryButtonText = "Buy Krigs on Private sale",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
