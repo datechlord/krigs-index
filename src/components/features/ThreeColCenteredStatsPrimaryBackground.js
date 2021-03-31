@@ -27,7 +27,7 @@ export default ({
     },
     {
       key: "Ticker Symbol",
-      value: "Krigs",
+      value: "KRIGS",
     },
     {
       key: "Token Type",
@@ -35,8 +35,8 @@ export default ({
     },
 
     {
-      key: "Token Type",
-      value: "BEP-20",
+      key: "Token Supply",
+      value: "150 Million",
     },
   ]
 }) => {
