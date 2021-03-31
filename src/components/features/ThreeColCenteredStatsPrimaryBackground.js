@@ -33,18 +33,6 @@ export default ({
       key: "Token Type",
       value: "BEP-20",
     },
-
-    key: "Total Supply",
-      value: "150,00,000",
-    },
-
-    key: "Token Type",
-      value: "150+",
-    },
-
-    key: "Token Type",
-      value: "150+",
-    },
   ]
 }) => {
   return (
