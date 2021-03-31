@@ -2,7 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
-import Features from "components/features/ThreeColWithSideImage.js";
+import MainFeature from "components/features/TwoColWithButton.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 
 export default () => {
@@ -18,9 +18,7 @@ export default () => {
       imageDecoratorBlob={true}
       primaryButtonText="Read The Docs"
     />
-    <Features 
-        heading={<>Amazing <HighlightedText>Features</HighlightedText></>}
-      />
+        <MainFeature />
       <Footer />
     </AnimationRevealPage>
     
