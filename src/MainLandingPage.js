@@ -74,8 +74,7 @@ export default () => {
         scrollable mode="VERTICAL_ALTERNATING"
         subheading="Reliable"
         heading="Highly Redundant Servers With Backup"
-        imageSrc={serverRedundancyIllustrationImageSrc}
-        buttonRounded={false}/>
+        />
       <GetStarted/>
       <Footer />
     </AnimationRevealPage>
