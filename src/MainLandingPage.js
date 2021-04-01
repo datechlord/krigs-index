@@ -17,12 +17,6 @@ export default () => {
       cardTitle: "Dunkirk",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-      media: {
-        type: "IMAGE",
-        source: {
-          url: "http://someurl/image.jpg"
-        }
-      }
     }];
   
   return (
@@ -37,9 +31,7 @@ export default () => {
     />
     <FeatureStats/>
         <MainFeature />
-        <div style={{ width: "500px", height: "400px" }}>
-        <Chrono items={items} />
-      </div>
+        <Chrono items={items} scrollable  />
       <GetStarted/>
       <Footer />
     </AnimationRevealPage>
