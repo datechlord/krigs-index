@@ -23,12 +23,12 @@ const DecoratorBlobContainer = tw.div`absolute inset-0 overflow-hidden rounded-l
 const DecoratorBlob1 = tw(SvgDecoratorBlob1)`absolute bottom-0 left-0 w-80 h-80 transform -translate-x-20 translate-y-32 text-primary-500 opacity-5`
 const DecoratorBlob2 = tw(SvgDecoratorBlob1)`absolute top-0 right-0 w-80 h-80 transform  translate-x-20 -translate-y-64 text-primary-500 opacity-5`
 export default ({
-  subheading = "Interested in Krigs Finance ?",
-  heading = "Join the Telegram and Whatsapp community.",
+  subheading = "Are Interested in Krigs Finance?",
+  heading = "Join the Telegram and Medium.",
   primaryLinkText = "Telegram",
-  primaryLinkUrl = "http://timerse.com",
+  primaryLinkUrl = "https://t.me/krigs_finance",
   secondaryLinkText = "Medium",
-  secondaryLinkUrl = "http://google.com",
+  secondaryLinkUrl = "https://krigsfinance.medium.com/",
   pushDownFooter = true
 }) => {
   return (
