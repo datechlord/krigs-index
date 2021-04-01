@@ -9,22 +9,6 @@ import { Container, ContentWithPaddingXl } from "components/misc/Layouts.js";
 import { ReactComponent as ChevronDownIcon } from "feather-icons/dist/icons/chevron-down.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-7.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-8.svg";
-import { Chrono } from "react-chrono";
-  
-  const Home = () => {
-    const items = [{
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-      media: {
-        type: "IMAGE",
-        source: {
-          url: "http://someurl/image.jpg"
-        }
-      }
-    }
-    ];
 
 const Subheading = tw(SubheadingBase)`mb-4 text-center`;
 const Heading = tw(SectionHeading)`w-full`;
