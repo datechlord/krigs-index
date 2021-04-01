@@ -6,7 +6,7 @@ import MainFeature from "components/features/TwoColWithButton.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
 import GetStarted from "components/cta/GetStartedLight.js";
-import RoadMap from "component/roadmap/RoadMap.js";
+import RoadMap from "components/roadmap/RoadMap.js";
 
 
 export default () => {
