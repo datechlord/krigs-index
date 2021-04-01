@@ -52,12 +52,9 @@ export default () => {
             <SocialLink href="https://www.youtube.com/channel/UCuRHEVVbaNODx5EVlcUg8RQ">
               <YoutubeIcon />
             </SocialLink>
-            <SocialLink href="https://www.youtube.com/channel/UCuRHEVVbaNODx5EVlcUg8RQ">
-              <TelegramIcon />
-            </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2021, Krigs Finance. All Rights Reserved.
+            &copy; 2021, Krigs Finance.
           </CopyrightText>
         </Row>
       </Content>
