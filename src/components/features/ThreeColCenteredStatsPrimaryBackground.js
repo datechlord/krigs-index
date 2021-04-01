@@ -55,13 +55,18 @@ export default ({
     },
  
     {
-      key: "Token Soft Cap",
-      value: "$0",
+      key: "Initial Market Cap",
+      value: "$383,000",
     },
 
     {
       key: "Token Hard Cap",
-      value: "$0",
+      value: "$1870000",
+    },
+
+    {
+      key: "Fully Diluted Market Cap",
+      value: "$9600000",
     },
 
   ]
