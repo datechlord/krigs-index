@@ -81,9 +81,6 @@ export default ({
             <Heading>{heading}</Heading>
             {description && <Description>{description}</Description>}
           </HeaderContent>
-          <div style={{ width: "500px", height: "400px" }}>
-        <Chrono items={items} />
-      </div>
           <FAQSContainer>
             {faqs.map((faq, index) => (
               <FAQ
