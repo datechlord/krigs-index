@@ -74,7 +74,7 @@ export default () => {
     />
         <MainFeature />
          <FeatureStats/>
-          <GetStarted/>
+         
         <Chrono 
         subheading="krigs"
         heading="Roadmap"
@@ -82,6 +82,7 @@ export default () => {
         scrollable mode="VERTICAL_ALTERNATING"
         
         />
+     <GetStarted/>
       <Footer />
     </AnimationRevealPage>
     
