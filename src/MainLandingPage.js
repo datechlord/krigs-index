@@ -78,7 +78,7 @@ export default () => {
         <MainFeature />
          <FeatureStats/>
          
-         <div id="RoadMap">
+         <div id="roadmap">
         <Chrono 
         items={items}
         scrollable mode="VERTICAL_ALTERNATING"
