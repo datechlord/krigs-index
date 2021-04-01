@@ -50,11 +50,6 @@ export default ({
     },
 
     {
-      key: "Token Available",
-      value: "30%",
-    },
-
-    {
       key: "Listing on",
       value: "Uniswap and Pancake Swap",
     },
