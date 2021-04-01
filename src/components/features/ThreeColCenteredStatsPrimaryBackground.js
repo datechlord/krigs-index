@@ -50,9 +50,20 @@ export default ({
     },
 
     {
-      key: "Listing on",
-      value: "Uniswap and Pancake Swap",
+      key: "Token For Presale",
+      value: "36 Million Tokens(30% of supply)",
     },
+ 
+    {
+      key: "Token Soft Cap",
+      value: "$0",
+    },
+
+    {
+      key: "Token Hard Cap",
+      value: "$0",
+    },
+
   ]
 }) => {
   return (

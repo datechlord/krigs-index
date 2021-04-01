@@ -49,7 +49,7 @@ export default ({
   ),
   description = "Underpinned by the Binance Smart Chain network, Krigs Finance is a P2P insurance marketplace. Market participants can easily request or provide coverage on a wide variety of cryptocurrency assets. Claims are fully collateralized and payouts are instant.",
   primaryButtonText = "Buy Krigs on Private sale",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = false,
   imageSrc = TeamIllustrationSrc,
   buttonRounded = true,
   imageRounded = true,
