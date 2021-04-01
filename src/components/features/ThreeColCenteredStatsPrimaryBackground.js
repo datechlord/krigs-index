@@ -41,12 +41,22 @@ export default ({
 
     {
       key: "Token Supply",
-      value: "150 Million",
+      value: "120 Million",
     },
 
     {
       key: "Token Price in USD",
       value: "$0.50",
+    },
+
+    {
+      key: "Token Available",
+      value: "30%",
+    },
+
+    {
+      key: "Listing on",
+      value: "Uniswap and Pancake Swap",
     },
   ]
 }) => {
