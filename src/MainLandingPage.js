@@ -69,7 +69,9 @@ export default () => {
     />
     <FeatureStats/>
         <MainFeature />
-        <Chrono items={items} scrollable mode="HORIZONTAL"  />
+        <div style={{ width: "300px", height: "950px" }}>
+        <Chrono items={items}
+         scrollable mode="VERTICAL"  /></div>
       <GetStarted/>
       <Footer />
     </AnimationRevealPage>
