@@ -63,13 +63,16 @@ export default ({
     },
     {
       question: "What is the work of KRIGS Finance ?",
-      answer:
-        "KRIGS Finance is building the future of digital asset insurance. By enabling cryptocurrency users to insure one another, krigs Finance allows a broad array of cryptocurrency assets to be insured at extremely competitive rates."
+      answer:  "KRIGS Finance is building the future of digital asset insurance. By enabling cryptocurrency users to insure one another, krigs Finance allows a broad array of cryptocurrency assets to be insured at extremely competitive rates."
     },
     {
       question: "What will be the supply of KRIGS Native Token ?",
       answer:"Krigs Token has a Maximum supply of 120,000,000.00 tokens."
-    }
+    },
+    {
+      question: "When will KRIGS be listed on Exchange ?",
+      answer:"KRIGS Native token will be live on Pancakeswap immediately its reach softcap sales at presale."
+    },
   ];
 
   if (!faqs || faqs.length === 0) faqs = defaultFaqs;
