@@ -39,10 +39,8 @@ export default () => {
             <LogoText>KRIGS <br/>FINANCE</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
+            <Link href="#">What is Krigs?</Link>
+            <Link href="#">Docs</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
@@ -53,6 +51,9 @@ export default () => {
             </SocialLink>
             <SocialLink href="https://www.youtube.com/channel/UCuRHEVVbaNODx5EVlcUg8RQ">
               <YoutubeIcon />
+            </SocialLink>
+            <SocialLink href="https://www.youtube.com/channel/UCuRHEVVbaNODx5EVlcUg8RQ">
+              <TelegramIcon />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
