@@ -50,7 +50,7 @@ export default () => {
     />
     <FeatureStats/>
         <MainFeature />
-        <Chrono items={items} scrollable  />
+        <Chrono items={items} scrollable mode="HORIZONTAL"  />
       <GetStarted/>
       <Footer />
     </AnimationRevealPage>
