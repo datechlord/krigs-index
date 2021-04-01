@@ -6,6 +6,8 @@ import MainFeature from "components/features/TwoColWithButton.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
 import GetStarted from "components/cta/GetStartedLight.js";
+import FAQ from "components/faqs/SimpleWithSideImage.js";
+import ContactUsForm from "components/forms/TwoColContactUsWithIllustration.js";
 import { Chrono } from "react-chrono";
 
 
@@ -82,7 +84,21 @@ export default () => {
         scrollable mode="VERTICAL_ALTERNATING"
         
         />
+    
+
+     <FAQ
+      imageSrc={customerSupportIllustrationSrc}
+      imageContain={true}
+      imageShadow={false}
+      subheading="FAQs"
+      heading={
+        <>
+          Do you have <span tw="text-primary-500">Questions ?</span>
+        </>
+      }
+    />
      <GetStarted/>
+     <ContactUsForm />
       <Footer />
     </AnimationRevealPage>
     
