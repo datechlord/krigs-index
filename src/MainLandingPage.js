@@ -8,7 +8,9 @@ import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackgr
 import GetStarted from "components/cta/GetStartedLight.js";
 import { Chrono } from "react-chrono";
 
-const Home = () => {
+
+export default () => {
+  const Home = () => {
     const items = [{
       title: "May 1940",
       cardTitle: "Dunkirk",
@@ -21,8 +23,6 @@ const Home = () => {
         }
       }
     }, ];
-
-export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
   const imageCss = tw`rounded-4xl`;
   return (
