@@ -70,10 +70,11 @@ export default () => {
     <FeatureStats/>
         <MainFeature />
         <Chrono 
+        subheading="krigs"
+        heading="Roadmap"
         items={items}
         scrollable mode="VERTICAL_ALTERNATING"
-        subheading="Reliable"
-        heading="Highly Redundant Servers With Backup"
+        
         />
       <GetStarted/>
       <Footer />
