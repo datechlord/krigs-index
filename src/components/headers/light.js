@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-import { Chrono } from "react-chrono";
 
 import useAnimatedNavToggler from "../../helpers/useAnimatedNavToggler.js";
 
