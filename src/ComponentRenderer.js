@@ -455,9 +455,9 @@ export const components = {
 
     RoadMap:{
       type: "RoadMap"
-      elements: {
+      element: {
         RoadMap: {
-          name: "Roadmap",
+          name: "RoadMap",
           component: RoadMap,
           url: "/components/roadmap/RoadMap",
         },
