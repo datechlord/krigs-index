@@ -52,14 +52,14 @@ export default ({
    */
   const defaultFaqs = [
     {
-      question: "What is Krigs Native Token ?",
+      question: "What is KRIGS Native Token ?",
       answer:
-        "Krigs is a BEP20 based asset and a Binance Smart Chain based ecosystem itself."
+        "KRIGS Token is a BEP20 based asset and a Binance Smart Chain based ecosystem itself."
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "What will be the sale price for Krigs Finance Token ?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "KRIGS pre-sale price is $0.5 USD / 1 KRIGS and it may Reach 200 X after few days of listing on Pancake Swap and Binance Launchpad."
     },
     {
       question: "Are Wi-Fi costs included in the price ?",
