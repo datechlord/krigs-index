@@ -13,26 +13,26 @@ export default () => {
     const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
     const imageCss = tw`rounded-4xl`;
     const items = [{
-      title: "May 1940",
-      cardTitle: "Dunkirk",
+      title: "April 2021",
+      cardTitle: "Q1",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
+      title: "April 2021",
+      cardTitle: "Q2",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
+      title: "April 2021",
+      cardTitle: "Q3",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
+      title: "April 2021",
+      cardTitle: "Q4",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
     },
