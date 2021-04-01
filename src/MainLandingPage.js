@@ -10,7 +10,8 @@ import { Chrono } from "react-chrono";
 
 
 export default () => {
-  const Home = () => {
+    const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
+    const imageCss = tw`rounded-4xl`;
     const items = [{
       title: "May 1940",
       cardTitle: "Dunkirk",
@@ -22,9 +23,8 @@ export default () => {
           url: "http://someurl/image.jpg"
         }
       }
-    }, ];
-  const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
-  const imageCss = tw`rounded-4xl`;
+    }];
+  
   return (
     <AnimationRevealPage>
     <Hero
