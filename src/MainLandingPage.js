@@ -83,7 +83,7 @@ export default () => {
         items={items}
         scrollable mode="VERTICAL_ALTERNATING"
         />
-        </d-v>
+        </div>
     
 
      <FAQ
