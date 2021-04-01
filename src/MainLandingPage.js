@@ -6,9 +6,21 @@ import MainFeature from "components/features/TwoColWithButton.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
 import GetStarted from "components/cta/GetStartedLight.js";
-import FAQ from "components/faqs/SingleCol.js";
+import { Chrono } from "react-chrono";
 
-
+const Home = () => {
+    const items = [{
+      title: "May 1940",
+      cardTitle: "Dunkirk",
+      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      media: {
+        type: "IMAGE",
+        source: {
+          url: "http://someurl/image.jpg"
+        }
+      }
+    }, ];
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -24,12 +36,11 @@ export default () => {
       primaryButtonText="Read The Docs"
     />
     <FeatureStats/>
-     <RoadMap/>
         <MainFeature />
+        <div style={{ width: "500px", height: "400px" }}>
+        <Chrono items={items} />
+      </div>
       <GetStarted/>
-      <FAQ
-        heading={<>Any <HighlightedText>Questions ?</HighlightedText></>}
-      />
       <Footer />
     </AnimationRevealPage>
     
