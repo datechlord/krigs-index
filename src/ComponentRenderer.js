@@ -453,6 +453,16 @@ export const components = {
       }
     },
 
+    RoadMap:{
+      type: "RoadMap"
+      elements: {
+        RoadMap: {
+          name: "Roadmap",
+          component: RoadMap,
+          url: "/components/roadmap/RoadMap",
+        }
+      }
+      },
 
     CTA: {
       type: "CTA Section",
@@ -471,11 +481,6 @@ export const components = {
           name: "Download App",
           component: DownloadAppCTA,
           url: "/components/blocks/CTA/DownloadApp",
-        },
-        RoadMap: {
-          name: "Roadmap",
-          component: RoadMap,
-          url: "/components/roadmap/RoadMap",
         },
       }
     },
