@@ -5,6 +5,8 @@ import Hero from "components/hero/TwoColumnWithVideo.js";
 import MainFeature from "components/features/TwoColWithButton.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
+import GetStarted from "components/cta/GetStartedLight.js";
+
 
 
 export default () => {
@@ -22,6 +24,7 @@ export default () => {
     />
     <FeatureStats/>
         <MainFeature />
+      <GetStarted/>
       <Footer />
     </AnimationRevealPage>
     
