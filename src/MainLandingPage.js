@@ -25,35 +25,49 @@ export default () => {
       cardDetailedText: "PR and Community Building, Token Launch, Listing on Exchanges, Product Development, Testing, First Beta Desktop Version",
     },
     {
-      title: "Q3 2021",
-      cardTitle: "Q3",
+      title: "Q2 2021",
+      cardTitle: "Q2",
       cardSubtitle:"Beta to Live Version Desktop, Beta App IOS, Extended Structured Products, Beta Rating System",
       cardDetailedText: "Beta to Live Version Desktop, Beta App IOS, Extended Structured Products, Beta Rating System",
     },
     {
-      title: "Q4 2021",
-      cardTitle: "Q4",
+      title: "Q3 2021",
+      cardTitle: "Q3",
       cardSubtitle:"Multi-Collateral Escrow, Shift to DAO Governance, Fixed Liquidity Provider Structure",
       cardDetailedText: "Multi-Collateral Escrow, Shift to DAO Governance, Fixed Liquidity Provider Structure",
     },
     {
-      title: "Q5 2021",
-      cardTitle: "Q5",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "Q4 2021",
+      cardTitle: "Q4",
+      cardSubtitle:"Enough Instant Liquidity for major assets, P2P Insurance for Re-Insurance",
+      cardDetailedText: "Enough Instant Liquidity for major assets, P2P Insurance for Re-Insurance",
     },
     {
-      title: "Q6 2021",
-      cardTitle: "Q6",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "Q1 2022",
+      cardTitle: "Q1",
+      cardSubtitle:"Liquidity Mining, Live Protocol Rating System, Live Exchange Rating System, Live User Rating System.",
+      cardDetailedText: "Liquidity Mining, Live Protocol Rating System, Live Exchange Rating System, Live User Rating System.",
     },
 
     {
-      title: "Q7 2021",
-      cardTitle: "Q7",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "Q2 2022",
+      cardTitle: "Q2",
+      cardSubtitle:"System Integration with Exchanges, System Integration with Trading Terminals.",
+      cardDetailedText: "System Integration with Exchanges, System Integration with Trading Terminals",
+    },
+
+    {
+      title: "Q3 2022",
+      cardTitle: "Q3",
+      cardSubtitle:"Safe and Krigs Purchase of Crypto Assets with Fiat, Krigs Crypto Debit Card",
+      cardDetailedText: "Safe and krigs Purchase of Crypto Assets with Fiat, Insured Crypto Debit Card",
+    },
+
+    {
+      title: "Q4 2022",
+      cardTitle: "Q4",
+      cardSubtitle:"Safe and Insured Purchase of Crypto Assets with Fiat, Insured Crypto Debit Card",
+      cardDetailedText: "Safe and Insured Purchase of Crypto Assets with Fiat, Insured Crypto Debit Card",
     },
     ];
   
