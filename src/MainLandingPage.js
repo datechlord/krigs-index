@@ -13,26 +13,45 @@ export default () => {
     const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
     const imageCss = tw`rounded-4xl`;
     const items = [{
-      title: "April 2021",
+      title: "Q1 2021",
       cardTitle: "Q1",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
     },
     {
-      title: "April 2021",
+      title: "Q2 2021",
       cardTitle: "Q2",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
     },
     {
-      title: "April 2021",
+      title: "Q3 2021",
       cardTitle: "Q3",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
     },
     {
-      title: "April 2021",
+      title: "Q4 2021",
       cardTitle: "Q4",
+      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+    },
+    {
+      title: "Q5 2021",
+      cardTitle: "Q5",
+      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+    },
+    {
+      title: "Q6 2021",
+      cardTitle: "Q6",
+      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+    },
+
+    {
+      title: "Q7 2021",
+      cardTitle: "Q7",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
     },
