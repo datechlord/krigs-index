@@ -71,8 +71,11 @@ export default () => {
         <MainFeature />
         <Chrono 
         items={items}
-        scrollable mode="VERTICAL_ALTERNATING"/>
-        heading={<><HighlightedText> ROADMAP</HighlightedText></>}
+        scrollable mode="VERTICAL_ALTERNATING"
+        subheading="Reliable"
+        heading="Highly Redundant Servers With Backup"
+        imageSrc={serverRedundancyIllustrationImageSrc}
+        buttonRounded={false}/>
       <GetStarted/>
       <Footer />
     </AnimationRevealPage>
