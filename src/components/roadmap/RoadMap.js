@@ -13,7 +13,8 @@ import { Chrono } from "react-chrono";
           url: "http://someurl/image.jpg"
         }
       }
-    }, ...];
+    }
+    ];
 
     return (
       <div style={{ width: "500px", height: "400px" }}>
