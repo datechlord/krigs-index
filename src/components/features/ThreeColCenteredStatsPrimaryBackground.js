@@ -50,13 +50,18 @@ export default ({
     },
 
     {
-      key: "Token For Presale",
+      key: "Token For Sale",
       value: "36 Million Tokens(30% of supply)",
     },
  
     {
       key: "Initial Market Cap",
       value: "$383,000",
+    },
+
+    {
+      key: "Initial Circulating Supply",
+      value: "4,475,000 KRIGS",
     },
 
     {
