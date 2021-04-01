@@ -13,22 +13,22 @@ export default () => {
     const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
     const imageCss = tw`rounded-4xl`;
     const items = [{
-      title: "Q1 2021",
-      cardTitle: "Q1",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "Q4 2020",
+      cardTitle: "Q4",
+      cardSubtitle:"Equity Funding, Going Public, Token-Private Sale",
+      cardDetailedText: "Equity Funding, Going Public, Token-Private Sale",
     },
     {
-      title: "Q2 2021",
-      cardTitle: "Q2",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "Q1 2021",
+      cardTitle: "Q1",
+      cardSubtitle:"PR and Community Building, Token Launch, Listing on Exchanges, Product Development, Testing, First Beta Desktop Version",
+      cardDetailedText: "PR and Community Building, Token Launch, Listing on Exchanges, Product Development, Testing, First Beta Desktop Version",
     },
     {
       title: "Q3 2021",
       cardTitle: "Q3",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle:"Beta to Live Version Desktop, Beta App IOS, Extended Structured Products, Beta Rating System",
+      cardDetailedText: "Beta to Live Version Desktop, Beta App IOS, Extended Structured Products, Beta Rating System",
     },
     {
       title: "Q4 2021",
