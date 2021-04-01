@@ -8,6 +8,7 @@ import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackgr
 import GetStarted from "components/cta/GetStartedLight.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import ContactUsForm from "components/forms/TwoColContactUsWithIllustration.js";
+import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import { Chrono } from "react-chrono";
 
 
