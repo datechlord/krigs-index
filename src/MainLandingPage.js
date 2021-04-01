@@ -69,8 +69,10 @@ export default () => {
     />
     <FeatureStats/>
         <MainFeature />
-        <Chrono items={items}
-         scrollable mode="VERTICAL_ALTERNATING"/>
+        <Chrono 
+        heading={<><HighlightedText> ROADMAP</HighlightedText></>}
+        items={items}
+        scrollable mode="VERTICAL_ALTERNATING"/>
       <GetStarted/>
       <Footer />
     </AnimationRevealPage>
