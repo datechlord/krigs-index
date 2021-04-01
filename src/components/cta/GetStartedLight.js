@@ -27,7 +27,7 @@ export default ({
   heading = "Join the Telegram and Whatsapp community.",
   primaryLinkText = "Telegram",
   primaryLinkUrl = "http://timerse.com",
-  secondaryLinkText = "Whatsapp",
+  secondaryLinkText = "Medium",
   secondaryLinkUrl = "http://google.com",
   pushDownFooter = true
 }) => {
