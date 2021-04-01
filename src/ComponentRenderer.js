@@ -460,7 +460,7 @@ export const components = {
           name: "Roadmap",
           component: RoadMap,
           url: "/components/roadmap/RoadMap",
-        }
+        },
       }
       },
 
