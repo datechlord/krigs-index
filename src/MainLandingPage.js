@@ -33,8 +33,8 @@ export default () => {
     {
       title: "Q4 2021",
       cardTitle: "Q4",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle:"Multi-Collateral Escrow, Shift to DAO Governance, Fixed Liquidity Provider Structure",
+      cardDetailedText: "Multi-Collateral Escrow, Shift to DAO Governance, Fixed Liquidity Provider Structure",
     },
     {
       title: "Q5 2021",
