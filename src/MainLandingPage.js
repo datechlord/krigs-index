@@ -14,6 +14,7 @@ import { Chrono } from "react-chrono";
 export default () => {
     const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
     const imageCss = tw`rounded-4xl`;
+
     const items = [{
       title: "Q4 2020",
       cardTitle: "Equity Funding",
@@ -78,11 +79,8 @@ export default () => {
          <FeatureStats/>
          
         <Chrono 
-        subheading="krigs"
-        heading="Roadmap"
         items={items}
         scrollable mode="VERTICAL_ALTERNATING"
-        
         />
     
 
