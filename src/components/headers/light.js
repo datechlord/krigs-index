@@ -3,12 +3,28 @@ import { motion } from "framer-motion";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
+import { Chrono } from "react-chrono";
 
 import useAnimatedNavToggler from "../../helpers/useAnimatedNavToggler.js";
 
 import logo from "../../images/krigs-logo.png";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
+ 
+ const Home = () => {
+    const items = [{
+      title: "May 1940",
+      cardTitle: "Dunkirk",
+      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+      media: {
+        type: "IMAGE",
+        source: {
+          url: "http://someurl/image.jpg"
+        }
+      }
+    }
+    ];
 
 const Header = tw.header`
   flex justify-between items-center

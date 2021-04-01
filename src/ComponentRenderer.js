@@ -10,7 +10,6 @@ import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
 import ServiceLandingPage from "demos/ServiceLandingPage.js";
 import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
-
 import EventLandingPageImageSrc from "images/demo/EventLandingPage.jpeg";
 import HotelTravelLandingPageImageSrc from "images/demo/HotelTravelLandingPage.jpeg";
 import AgencyLandingPageImageSrc from "images/demo/AgencyLandingPage.jpeg";
@@ -99,7 +98,6 @@ import FiveColumnWithInputFormFooter from "components/footers/FiveColumnWithInpu
 import FiveColumnWithBackgroundFooter from "components/footers/FiveColumnWithBackground.js";
 import FiveColumnDarkFooter from "components/footers/FiveColumnDark.js";
 import MiniCenteredFooter from "components/footers/MiniCenteredFooter.js";
-import RoadMap from "components/roadmap/RoadMap.js";
 
 
 export const components = {
@@ -452,17 +450,6 @@ export const components = {
         },
       }
     },
-
-    RoadMap:{
-      type: "RoadMap"
-      element: {
-        RoadMap: {
-          name: "RoadMap",
-          component: RoadMap,
-          url: "/components/roadmap/RoadMap",
-        },
-      }
-      },
 
     CTA: {
       type: "CTA Section",

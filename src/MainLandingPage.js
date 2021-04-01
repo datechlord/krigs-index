@@ -6,7 +6,8 @@ import MainFeature from "components/features/TwoColWithButton.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
 import GetStarted from "components/cta/GetStartedLight.js";
-import RoadMap from "components/roadmap/RoadMap.js";
+import FAQ from "components/faqs/SingleCol.js";
+
 
 
 export default () => {
@@ -26,6 +27,9 @@ export default () => {
      <RoadMap/>
         <MainFeature />
       <GetStarted/>
+      <FAQ
+        heading={<>Any <HighlightedText>Questions ?</HighlightedText></>}
+      />
       <Footer />
     </AnimationRevealPage>
     
