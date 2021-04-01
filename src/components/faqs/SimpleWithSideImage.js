@@ -62,14 +62,13 @@ export default ({
         "KRIGS pre-sale price is $0.5 USD / 1 KRIGS and it may Reach 200 X after few days of listing on Pancake Swap and Binance Launchpad."
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
+      question: "What is the work of KRIGS Finance ?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "KRIGS Finance is building the future of digital asset insurance. By enabling cryptocurrency users to insure one another, krigs Finance allows a broad array of cryptocurrency assets to be insured at extremely competitive rates."
     },
     {
-      question: "Where can I reach you for support ?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      question: "What will be the supply of KRIGS Native Token ?",
+      answer:"Krigs Token has a Maximum supply of 120,000,000.00 tokens."
     }
   ];
 
