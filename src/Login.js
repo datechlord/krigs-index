@@ -8,7 +8,7 @@ import ComponentRenderer from "ComponentRenderer.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
-export default function Login() {
+export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
     <Router>
