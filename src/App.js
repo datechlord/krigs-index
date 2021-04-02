@@ -107,7 +107,7 @@ import LoginPage from "Login.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-export default function App, LoginPage() {
+export default function App (LoginPage) {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
     <Router>
