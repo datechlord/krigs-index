@@ -124,7 +124,7 @@ export default function Login (){
     </Router>
   );
 
-},
+}
 
 export default function App () {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
