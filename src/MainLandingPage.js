@@ -9,6 +9,8 @@ import GetStarted from "components/cta/GetStartedLight.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import { Chrono } from "react-chrono";
+import moment from 'moment';
+import CountdownTimer from 'react-awesome-countdowntimer';
 
 
 export default () => {
@@ -68,7 +70,8 @@ export default () => {
   return (
     <AnimationRevealPage>
     <Hero
-      heading={<>Building the Future of Digital Asset <HighlightedText> Insurance</HighlightedText></>}
+      heading={<>Building the Future of Digital Asset 
+      <HighlightedText> Insurance</HighlightedText><br/><CountdownTimer endDate={moment('06/04/2021 12:00:00')}/></>}
       description="A decentralized P2P insurance marketplace with easy claims and instant payouts. Powered by Binance Smart Chain."
       imageSrc="https://finrocks.com/images/blockchain/hero-img.svg"
       imageCss={imageCss}
