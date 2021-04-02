@@ -118,8 +118,7 @@ export default function App() {
         </Route>
         <Route path="/">
           <MainLandingPage />
-        </Route>
-        </Route>
+          </Route>
       </Switch>
     </Router>
   );
