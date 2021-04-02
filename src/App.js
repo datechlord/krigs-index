@@ -107,7 +107,26 @@ import LoginPage from "Login.js";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-export default function App (LoginPage) {
+export default function LoginPage (){
+  return(
+    <Router>
+      <Switch>
+        <Route path="/components/:type/:subtype/:name">
+          <ComponentRenderer />
+        </Route>
+        <Route path="/components/:type/:name">
+          <ComponentRenderer />
+        </Route>
+          <Route path="/login">
+          <LoginPage/>
+        </Route>
+      </Switch>
+    </Router>
+  );
+
+},
+
+export default function App () {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
     <Router>
@@ -137,7 +156,7 @@ export default function App (LoginPage) {
 // export default ServiceLandingPage;
 // export default HostingCloudLandingPage;
 
-//export default LoginPage;
+//
 // export default SignupPage;
 // export default PricingPage;
 // export default AboutUsPage;
