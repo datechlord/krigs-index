@@ -73,7 +73,8 @@ export default () => {
       imageSrc="https://finrocks.com/images/blockchain/hero-img.svg"
       imageCss={imageCss}
       imageDecoratorBlob={true}
-      primaryButtonText="Read The Docs"
+      primaryButtonText="Buy Krigs on Presale"
+      primaryButtonUrl="https://krigs.network"
     />
         <MainFeature />
          <FeatureStats/>
