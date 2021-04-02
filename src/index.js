@@ -7,6 +7,6 @@ Modal.setAppElement("#root");
 
 ReactDOM.render(
   <App />,
-  <Login>,
+  <Login />,
   document.getElementById("root")
 );
