@@ -140,9 +140,6 @@ export default function App () {
         <Route path="/">
           <MainLandingPage />
           </Route>
-          <Route path="/login">
-          <LoginPage/>
-        </Route>
       </Switch>
     </Router>
   );
