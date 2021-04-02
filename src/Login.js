@@ -1,8 +1,4 @@
-import "tailwindcss/dist/base.css";
-import "styles/globalStyles.css";
 import React from "react";
-import { css } from "styled-components/macro";
-
 import LoginPage from "pages/Login.js";
 import ComponentRenderer from "ComponentRenderer.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
