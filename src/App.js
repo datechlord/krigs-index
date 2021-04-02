@@ -137,7 +137,7 @@ export default function App() {
 // export default ServiceLandingPage;
 // export default HostingCloudLandingPage;
 
-// export default LoginPage;
+export default LoginPage;
 // export default SignupPage;
 // export default PricingPage;
 // export default AboutUsPage;
