@@ -92,7 +92,6 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
-import LoginPage from "Login.js";
 // import SignupPage from "pages/Signup.js";
 // import PricingPage from "pages/Pricing.js";
 // import AboutUsPage from "pages/AboutUs.js";
@@ -120,8 +119,6 @@ export default function App() {
         <Route path="/">
           <MainLandingPage />
         </Route>
-        <Route path="/Login">
-          <LoginPage />
         </Route>
       </Switch>
     </Router>
