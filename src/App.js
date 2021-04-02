@@ -92,6 +92,7 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
+import LoginPage from "Login.js";
 // import SignupPage from "pages/Signup.js";
 // import PricingPage from "pages/Pricing.js";
 // import AboutUsPage from "pages/AboutUs.js";
@@ -102,31 +103,10 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 
 import ComponentRenderer from "ComponentRenderer.js";
 import MainLandingPage from "MainLandingPage.js";
-import LoginPage from "Login.js";
-
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-export default function Login (){
-  return(
-    <Router>
-      <Switch>
-        <Route path="/components/:type/:subtype/:name">
-          <ComponentRenderer />
-        </Route>
-        <Route path="/components/:type/:name">
-          <ComponentRenderer />
-        </Route>
-          <Route path="/login">
-          <LoginPage/>
-        </Route>
-      </Switch>
-    </Router>
-  );
-
-}
-
-export default function App () {
+export default function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
     <Router>
@@ -139,7 +119,10 @@ export default function App () {
         </Route>
         <Route path="/">
           <MainLandingPage />
-          </Route>
+        </Route>
+        <Route path="/Login">
+          <LoginPage />
+        </Route>
       </Switch>
     </Router>
   );
@@ -153,7 +136,7 @@ export default function App () {
 // export default ServiceLandingPage;
 // export default HostingCloudLandingPage;
 
-//
+ export default LoginPage;
 // export default SignupPage;
 // export default PricingPage;
 // export default AboutUsPage;
