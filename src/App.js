@@ -121,7 +121,7 @@ export default function App() {
         <Route path="/">
           <MainLandingPage />
           </Route>
-          <Route path="/">
+          <Route path="/login">
           <LoginPage/>
         </Route>
       </Switch>
