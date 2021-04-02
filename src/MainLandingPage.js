@@ -75,6 +75,7 @@ export default () => {
       imageDecoratorBlob={true}
       primaryButtonText="Buy Krigs on Presale"
       primaryButtonUrl="https://krigs.network"
+      primaryButtonTarget="blank"
     />
         <MainFeature />
          <FeatureStats/>
