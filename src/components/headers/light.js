@@ -75,7 +75,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="https://krigsfinance.medium.com/introducing-krigs-finance-the-future-of-digital-asset-insurance-3a5090d68e93" target="blank">What is Krigs?</NavLink>
       <NavLink href="/#">Docs</NavLink>
       <NavLink href="/#roadmap">Milestone</NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="krigs.network">Buy KRIGS</PrimaryLink>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://krigs.network">Buy KRIGS</PrimaryLink>
     </NavLinks>
   ];
 
