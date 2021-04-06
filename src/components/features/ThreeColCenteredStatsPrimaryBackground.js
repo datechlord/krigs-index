@@ -29,19 +29,15 @@ export default ({
       key: "Ticker Symbol",
       value: "KRIGS",
     },
-    {
-      key: "Token Type",
-      value: "BEP20",
-    },
-
+    
     {
       key: "Decimal",
-      value: "18",
+      value: "6",
     },
 
     {
       key: "Token Supply",
-      value: "120 Million",
+      value: "10 Million",
     },
 
     {
@@ -51,27 +47,7 @@ export default ({
 
     {
       key: "Token For Sale",
-      value: "36 Million Tokens(30% of supply)",
-    },
- 
-    {
-      key: "Initial Market Cap",
-      value: "$383,000",
-    },
-
-    {
-      key: "Initial Circulating Supply",
-      value: "4,475,000 KRIGS",
-    },
-
-    {
-      key: "Token Hard Cap",
-      value: "$1,870,000",
-    },
-
-    {
-      key: "Fully Diluted Market Cap",
-      value: "$9,600,000",
+      value: "3 Million Tokens(30% of supply)",
     },
 
   ]
