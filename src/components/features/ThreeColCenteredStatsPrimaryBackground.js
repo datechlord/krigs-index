@@ -29,11 +29,6 @@ export default ({
       key: "Ticker Symbol",
       value: "KRIGS",
     },
-    
-    {
-      key: "Decimal",
-      value: "6",
-    },
 
     {
       key: "Token Supply",
@@ -45,11 +40,7 @@ export default ({
       value: "$0.50",
     },
 
-    {
-      key: "Token For Sale",
-      value: "3 Million Tokens(30% of supply)",
-    },
-
+    
   ]
 }) => {
   return (
