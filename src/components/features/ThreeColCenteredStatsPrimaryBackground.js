@@ -32,12 +32,12 @@ export default ({
 
     {
       key: "Token Supply",
-      value: "10 Million",
+      value: "10,000,000",
     },
 
     {
       key: "Token Price",
-      value: "$0.06",
+      value: "$0.50",
     },
 
     
