@@ -36,8 +36,8 @@ export default ({
     },
 
     {
-      key: "Token Price in USD",
-      value: "$0.50",
+      key: "Token Price",
+      value: "$0.06",
     },
 
     
