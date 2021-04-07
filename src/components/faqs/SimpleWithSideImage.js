@@ -59,7 +59,7 @@ export default ({
     {
       question: "What will be the sale price for Krigs Finance Token ?",
       answer:
-        "KRIGS pre-sale price is $0.5 USD / 1 KRIGS and it may Reach 200 X after few days of listing on Pancake Swap and Binance Launchpad."
+        "KRIGS pre-sale price is $0.50 USD / 1 KRIGS and it may Reach 200 X after few days of listing on Pancake Swap and Binance Launchpad."
     },
     {
       question: "What is the work of KRIGS Finance ?",
@@ -67,7 +67,7 @@ export default ({
     },
     {
       question: "What will be the supply of KRIGS Native Token ?",
-      answer:"Krigs Token has a Maximum supply of 120,000,000.00 tokens."
+      answer:"Krigs Token has a Maximum supply of 10,000,000.00 tokens."
     },
     {
       question: "When will KRIGS be listed on Exchange ?",
