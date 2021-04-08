@@ -68,9 +68,8 @@ export default () => {
   return (
     <AnimationRevealPage>
     <Hero
-      heading={<>Building the Future of Digital Asset 
-       <HighlightedText> Insurance</HighlightedText></>}
-      description="A decentralized P2P insurance marketplace with easy claims and instant payouts. Powered by Binance Smart Chain."
+      heading={<>Building the Future of Digital Asset <HighlightedText> Insurance</HighlightedText></>}
+      description={<>A decentralized P2P insurance marketplace with easy claims and instant payouts. Powered by Binance Smart Chain.<br/>KRIGS SMART CONTRACT<br/>0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7</>}
       imageSrc="https://finrocks.com/images/blockchain/hero-img.svg"
       imageCss={imageCss}
       imageDecoratorBlob={true}
