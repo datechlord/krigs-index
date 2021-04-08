@@ -69,7 +69,7 @@ export default () => {
     <AnimationRevealPage>
     <Hero
       heading={<>Building the Future of Digital Asset <HighlightedText> Insurance</HighlightedText></>}
-      description={<>A decentralized P2P insurance marketplace with easy claims and instant payouts. Powered by Binance Smart Chain.<br/><h5>KRIGS SMART CONTRACT</h5><br/><a href="https://bscscan.com/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7">0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7</a></>}
+      description={<>A decentralized P2P insurance marketplace with easy claims and instant payouts. Powered by Binance Smart Chain.<br/><h5>KRIGS SMART CONTRACT</h5><br/><a href="https://bscscan.com/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7"><center><small>0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7</small></center></a></>}
       imageSrc="https://finrocks.com/images/blockchain/hero-img.svg"
       imageCss={imageCss}
       imageDecoratorBlob={true}
