@@ -79,15 +79,9 @@ export default () => {
     />
         <MainFeature />
          <FeatureStats/>
-         
+      
          <div id="roadmap">
         <Chrono 
-         subheading="milestone"
-         heading={
-           <>
-            <span tw="text-primary-500">ROADMAP</span>
-           </>
-         }
         items={items}
         scrollable mode="VERTICAL_ALTERNATING"
         />
