@@ -9,6 +9,10 @@ import GetStarted from "components/cta/GetStartedLight.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import { Chrono } from "react-chrono";
+import serverRedundancyIllustrationImageSrc from "images/server-redundancy-illustration.svg"
+import MainFeature2 from "components/features/TwoColWithButton.js";
+
+
 
 
 export default () => {
@@ -79,7 +83,12 @@ export default () => {
     />
         <MainFeature />
          <FeatureStats/>
-      
+         <MainFeature2 
+        subheading="Reliable"
+        heading="Highly Redundant Servers With Backup"
+        imageSrc={serverRedundancyIllustrationImageSrc}
+        buttonRounded={false}
+      />
          <div id="roadmap" height="500">
            <br/>
            <br/>
