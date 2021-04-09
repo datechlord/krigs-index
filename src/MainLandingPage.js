@@ -59,7 +59,7 @@ export default () => {
     {
       title: "Q3 2022",
       cardTitle: "Safe and Krigs Purchase of Crypto Assets",
-      cardDetailedText: "Safe and krigs Purchase of Crypto Assets with Fiat, Insured Crypto Debit Card",
+      cardDetailedText: "Safe and krigs Purchase of Crypto Assets with Fiat, krigs Crypto Debit Card",
     },
 
     ];
@@ -89,7 +89,7 @@ export default () => {
            <br/>
         <Chrono 
         items={items}
-        scrollable mode="VERTICAL_ALTERNATING"
+        scrollable mode="HORIZONTAL_ALTERNATING"
         />
         </div>
     
