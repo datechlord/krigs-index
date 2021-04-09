@@ -73,14 +73,19 @@ export default () => {
       imageSrc="https://finrocks.com/images/blockchain/hero-img.svg"
       imageCss={imageCss}
       imageDecoratorBlob={true}
-      primaryButtonText="Buy Krigs on Presale"
+      primaryButtonText="Join Krigs Token ICO"
+      primaryButtonUrl="https://krigs.network"
+      primaryButtonTarget="blank"
+      primaryButtonText="Buy Krigs"
       primaryButtonUrl="https://krigs.network"
       primaryButtonTarget="blank"
     />
         <MainFeature />
          <FeatureStats/>
       
-         <div id="roadmap">
+         <div id="roadmap" height="500">
+           <br/>
+           <br/>
         <Chrono 
         items={items}
         scrollable mode="VERTICAL_ALTERNATING"
