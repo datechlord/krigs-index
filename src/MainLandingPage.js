@@ -89,7 +89,7 @@ export default () => {
            <br/>
         <Chrono 
         items={items}
-        scrollable mode="HORIZONTAL_ALTERNATING"
+        scrollable mode="VERTICAL_ALTERNATING"
         />
         </div>
     
