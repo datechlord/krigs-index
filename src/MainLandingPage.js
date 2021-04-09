@@ -76,9 +76,6 @@ export default () => {
       primaryButtonText="Join Krigs Token ICO"
       primaryButtonUrl="https://krigs.network"
       primaryButtonTarget="blank"
-      primaryButtonText="Buy Krigs"
-      primaryButtonUrl="https://krigs.network"
-      primaryButtonTarget="blank"
     />
         <MainFeature />
          <FeatureStats/>
