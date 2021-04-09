@@ -62,11 +62,6 @@ export default () => {
       cardDetailedText: "Safe and krigs Purchase of Crypto Assets with Fiat, Insured Crypto Debit Card",
     },
 
-    {
-      title: "Q4 2022",
-      cardTitle: "Safe and Insured Purchase of Crypto Assets with Fiat",
-      cardDetailedText: "Safe and Insured Purchase of Crypto Assets with Fiat, Insured Crypto Debit Card",
-    },
     ];
   
   return (
@@ -84,8 +79,8 @@ export default () => {
         <MainFeature />
          <FeatureStats/>
          <MainFeature2 
-        subheading="Reliable"
-        heading="Highly Redundant Servers With Backup"
+        subheading="Check the Roadmap"
+        heading="Highly Redundant Blockchain Servers"
         imageSrc={serverRedundancyIllustrationImageSrc}
         buttonRounded={false}
       />
