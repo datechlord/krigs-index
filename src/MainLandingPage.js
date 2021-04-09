@@ -81,8 +81,6 @@ export default () => {
          <MainFeature2 
         subheading="Check the Roadmap"
         heading="Highly Redundant Blockchain Servers"
-        imageSrc={serverRedundancyIllustrationImageSrc}
-        buttonRounded={false}
       />
          <div id="roadmap" height="500">
            <br/>
