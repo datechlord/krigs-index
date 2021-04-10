@@ -9,7 +9,6 @@ import GetStarted from "components/cta/GetStartedLight.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import { Chrono } from "react-chrono";
-import serverRedundancyIllustrationImageSrc from "images/server-redundancy-illustration.svg"
 import MainFeature2 from "components/features/TwoColWithButton.js";
 
 
