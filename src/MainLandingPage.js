@@ -30,7 +30,7 @@ export default () => {
       primaryButtonTarget="blank"
     />
         <FeatureWithSteps
-        subheading={<Subheading>STEPS</Subheading>}
+        subheading={<Subheading>Make your move and to join the Binance Community Program and Enjoy maximum benefits</Subheading>}
         heading={
           <>
             Join KRIGS <HighlightedText>in 3 Steps</HighlightedText>
