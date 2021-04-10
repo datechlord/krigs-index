@@ -2,7 +2,6 @@ import React from "react";
 import tw from "twin.macro";
 import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
-import MainFeature from "components/features/TwoColWithButton.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
 import GetStarted from "components/cta/GetStartedLight.js";
@@ -14,7 +13,7 @@ import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 
 
 export default () => {
-   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
+    const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
     const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
     const imageCss = tw`rounded-4xl`;
   
@@ -30,7 +29,18 @@ export default () => {
       primaryButtonUrl="https://krigs.network"
       primaryButtonTarget="blank"
     />
-        <MainFeature />
+        <FeatureWithSteps
+        subheading={<Subheading>STEPS</Subheading>}
+        heading={
+          <>
+            Join KRIGS <HighlightedText>in 3 Steps</HighlightedText>
+          </>
+        }
+        textOnLeft={false}
+        imageSrc={macHeroScreenshotImageSrc}
+        imageDecoratorBlob={true}
+        decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
+      />
          <FeatureStats/>
      <FAQ
       imageSrc={customerSupportIllustrationSrc}
@@ -43,18 +53,6 @@ export default () => {
         </>
       }
     />
-    <FeatureWithSteps
-        subheading={<Subheading>STEPS</Subheading>}
-        heading={
-          <>
-            Join KRIGS <HighlightedText>in 3 Steps</HighlightedText>
-          </>
-        }
-        textOnLeft={false}
-        imageSrc={macHeroScreenshotImageSrc}
-        imageDecoratorBlob={true}
-        decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
-      />
      <GetStarted/>
       <Footer />
     </AnimationRevealPage>
