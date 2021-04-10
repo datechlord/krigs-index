@@ -54,18 +54,18 @@ export default ({
   const blogPosts = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      author: "Adam Wathan",
-      category: "SEO",
-      title: "Optimizing your website for your main keyword",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://reddit.com"
+        "https://miro.medium.com/max/700/1*Jriu5oNmMnvUmEKk4TUOCA.png&auto=format&fit=crop&w=500&q=80",
+      author: "Krigs Finance",
+      category: "Token Sale",
+      title: "Pre-Sale starts 7th April 2021",
+      description: "The team at Krigs has been hard at work, preparing to launch a new type of token, and our initial coin offering/token generation event will take place today; the 7th of April, 2021.",
+      url: "https://krigsfinance.medium.com/the-krigs-token-sale-74792e8dab68"
     },
     {
       imageSrc:
         "https://images.unsplash.com/photo-1479660095429-2cf4e1360472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      author: "Owais Khan",
-      category: "Advertising",
+        author: "Krigs Finance",
+        category: "Token Sale",
       title: "Creating The perfect advertisement campaign",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       url: "https://timerse.com"
