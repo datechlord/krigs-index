@@ -55,7 +55,12 @@ export default ({
     {
       title: "Join KRIGS Token Pre-Sale",
       description: "Get your token for as low as 1 KRIGS = $0.5 in Pre-sale, that a pretty good deal !",
-      url: "https://krigsfinance.medium.com/the-krigs-token-sale-74792e8dab68"
+      url: "https://krigs.network"
+    },
+    {
+      title: "Refer to Win BNB",
+      description: "Invite your friends to join KRIGS pre-sale and win upto 10% of ETH, BNB rewards",
+      url: "https://krigs.network"
     },
    
   ];
