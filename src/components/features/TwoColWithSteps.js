@@ -59,12 +59,16 @@ export default ({
 
   const defaultSteps = [
     {
-      heading: "Get whitelisted",
-      description: "Get whiltelisted to get exclusive deals earlier"
+      heading: "Register Free Krigs Account",
+      description: "Join the community with creating a free Krigs Token Account"
+    },
+    {
+      heading: "Reserve Krigs",
+      description: "Buy KRIGS from your account using BNB, ETH, BTTC in Trustwallet or any Cryptocurrency Wallet"
     },
     {
       heading: "Buy Krigs",
-      description: "Buy KRIGS Token on private sale with 1 KRIGS - $0.06"
+      description: "Enjoy BNB, ETH rewards and High volume trading of KRIGS token In listing"
     }
   ];
 

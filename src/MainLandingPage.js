@@ -8,9 +8,8 @@ import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackgr
 import GetStarted from "components/cta/GetStartedLight.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
-import { Chrono } from "react-chrono";
-import MainFeature2 from "components/features/TwoColWithButton.js";
-
+import FeatureWithSteps from "components/features/TwoColWithSteps.js";
+import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 
 
 
@@ -77,20 +76,6 @@ export default () => {
     />
         <MainFeature />
          <FeatureStats/>
-         <MainFeature2 
-        subheading="Check the Roadmap"
-        heading="Highly Redundant Blockchain Servers"
-      />
-         <div id="roadmap" height="500">
-           <br/>
-           <br/>
-        <Chrono 
-        items={items}
-        scrollable mode="VERTICAL_ALTERNATING"
-        />
-        </div>
-    
-
      <FAQ
       imageSrc={customerSupportIllustrationSrc}
       imageContain={true}
@@ -102,6 +87,18 @@ export default () => {
         </>
       }
     />
+    <FeatureWithSteps
+        subheading={<Subheading>STEPS</Subheading>}
+        heading={
+          <>
+            Easy to <HighlightedText>Get Started.</HighlightedText>
+          </>
+        }
+        textOnLeft={false}
+        imageSrc={macHeroScreenshotImageSrc}
+        imageDecoratorBlob={true}
+        decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
+      />
      <GetStarted/>
       <Footer />
     </AnimationRevealPage>
