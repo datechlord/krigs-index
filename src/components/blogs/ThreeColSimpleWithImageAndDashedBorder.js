@@ -53,32 +53,11 @@ export default ({
 }) => {
   const blogPosts = [
     {
-      imageSrc:
-        "https://miro.medium.com/max/700/1*Jriu5oNmMnvUmEKk4TUOCA.png&auto=format&fit=crop&w=500&q=80",
-      author: "Krigs Finance",
-      category: "Token Sale",
-      title: "Pre-Sale starts 7th April 2021",
-      description: "The team at Krigs has been hard at work, preparing to launch a new type of token, and our initial coin offering/token generation event will take place today; the 7th of April, 2021.",
+      title: "Join KRIGS Token Pre-Sale",
+      description: "Get your token for as low as 1 KRIGS = $0.5 in Pre-sale, that a pretty good deal !",
       url: "https://krigsfinance.medium.com/the-krigs-token-sale-74792e8dab68"
     },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1479660095429-2cf4e1360472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-        author: "Krigs Finance",
-        category: "Token Sale",
-      title: "TBC is no longer Centralized?",
-      description: "Putting our trust in the financial system linked directly to the FORCE of GOVERNMENT is clearly working against humanity. Paper money is on its way out and we need TBC to grow much faster so that it will stand as a better option in a cashless society newly base on decentralized Finance.",
-      url: "https://timerse.com"
-    },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1579869847514-7c1a19d2d2ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-      author: "Steve Schoger",
-      category: "Social Media",
-      title: "Efficient management of your social media assets",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com"
-    }
+   
   ];
   return (
     <Container>
@@ -106,7 +85,7 @@ export default ({
                   </MetaContainer>
                   <Title>{post.title}</Title>
                   <Description>{post.description}</Description>
-                  <Link href={post.url}>Read Post</Link>
+                  <Link href={post.url}>Learn More</Link>
                 </Details>
               </Card>
             </Column>
