@@ -67,7 +67,7 @@ export default ({
       description: "Buy KRIGS from your account using BNB, ETH, BTTC in Trustwallet or any Cryptocurrency Wallet"
     },
     {
-      heading: "Buy Krigs",
+      heading: "Explore the ecosystem",
       description: "Enjoy BNB, ETH rewards and High volume trading of KRIGS token In listing"
     }
   ];
