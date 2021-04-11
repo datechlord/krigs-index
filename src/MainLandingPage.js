@@ -4,7 +4,6 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
-import GetStarted from "components/cta/GetStartedLight.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
@@ -86,7 +85,6 @@ export default () => {
         </>
       }
     />
-     <GetStarted/>
       <Footer />
     </AnimationRevealPage>
     
