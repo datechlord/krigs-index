@@ -48,6 +48,22 @@ export default () => {
             <h1><b>Community-Driven P2P Marketplace</b></h1>
             <hr />
             Krigs Finance is not an insurance company. The marketplace is operated entirely by its members and underpinned by the governance token KRIGS. Any user can request insurance and anyone can provide coverage. Krigs Finance is the first marketplace that allows users to specify their own coverage.
+            <br />
+            <h1><b>Cryptocurrency Holdings and Exchange Cover</b></h1>
+            <hr />
+            Hundreds of million in USD value has been lost due to exchange hacks. Krigs Finance users can insure their holdings on a cryptocurrency exchange. If the exchange is hacked or experiences bankruptcy, users with coverage are compensated.
+            <br />
+            <h1><b>Cryptocurrency Holdings and Exchange Cover</b></h1>
+            <hr />
+            The stablecoin market has grown to over $25 billion. Stablecoins remain exposed to a variety of risks like security lapses and issuer bankruptcy. Krigs Finance users can protect against stablecoin failure.
+            <br />
+            <h1><b>Smart Contract Coverage</b></h1>
+            <hr />
+            Protect against bugs and smart contract exploits. Tens of millions in USD value has evaporated at the hands of smart contract attacks. Krigs Finance users can protect against such events.
+            <br />
+            <h1><b>Rug Pull Cover</b></h1>
+            <hr />
+            Hedge DeFi Positions by covering Rug Pull possibilities. If a rug pull happens, Insured Finance users are covered.
            </Description>
         }
         buttonRounded={false}
