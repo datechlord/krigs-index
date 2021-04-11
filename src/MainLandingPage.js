@@ -12,9 +12,7 @@ import MainFeature from "components/features/TwoColWithButton.js";
 import chefIconImageSrc from "images/chef-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
 import shopIconImageSrc from "images/shop-icon.svg";
-
-
-
+import Features from "components/features/ThreeColSimple.js";
 
 
 export default () => {
