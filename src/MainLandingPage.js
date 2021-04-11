@@ -9,6 +9,9 @@ import customerSupportIllustrationSrc from "images/customer-support-illustration
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import MainFeature from "components/features/TwoColWithButton.js";
+import chefIconImageSrc from "images/chef-icon.svg";
+import celebrationIconImageSrc from "images/celebration-icon.svg";
+import shopIconImageSrc from "images/shop-icon.svg";
 
 
 
