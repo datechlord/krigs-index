@@ -104,7 +104,7 @@ export default () => {
           {
             imageSrc: celebrationIconImageSrc,
             title: "Benefit from Market-Based Pricing",
-            description: "In the traditional finance industry, you are dealing with a counterparty who is rewarded if you overpay. With Insured Finance, you are dealing with a wide marketplace who are competing to give you the best terms on your insurance.",
+            description: "In the traditional finance industry, you are dealing with a counterparty who is rewarded if you overpay. With Krigs Finance, you are dealing with a wide marketplace who are competing to give you the best terms on your insurance.",
             url: "https://krigs.network"
           }
         ]}
