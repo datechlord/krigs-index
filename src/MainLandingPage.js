@@ -35,17 +35,16 @@ export default () => {
     />
 
     <MainFeature
-        subheading={<Subheading>Established Since 2014</Subheading>}
+        subheading={<Subheading>BUY AND HOLD KRIGS</Subheading>}
         heading={
           <>
-            We've been serving for
-            <wbr /> <HighlightedText>over 5 years.</HighlightedText>
+            Making Blockchain
+            <wbr /> <HighlightedText>and Insurance Better.</HighlightedText>
           </>
         }
         description={
           <Description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
+            Our protocol will build fungible assets and smart contracts to perfrom fin-business operations.
             <br />
             <br />
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -55,7 +54,7 @@ export default () => {
         textOnLeft={false}
         primaryButtonText="Latest Offers"
         imageSrc={
-          "https://insured.finance/wp-content/uploads/2020/12/A-Blockchain-Based-P2P-Insurance-Marketplace.svg&auto=format&fit=crop&w=768&q=80"
+          "https://insured.finance/wp-content/uploads/2020/12/A-Blockchain-Based-P2P-Insurance-Marketplace.svg"
         }
         imageCss={imageCss}
         imageDecoratorBlob={true}
