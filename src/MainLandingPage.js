@@ -9,6 +9,8 @@ import FAQ from "components/faqs/SimpleWithSideImage.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import FeatureWithSteps from "components/features/TwoColWithSteps.js";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
+import MainFeature from "components/features/TwoColWithButton.js";
+
 
 
 
@@ -16,8 +18,9 @@ import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 export default () => {
     const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
     const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
+    const Description = tw.span`inline-block mt-8`;
     const imageCss = tw`rounded-4xl`;
-  
+   
   return (
     <AnimationRevealPage>
     <Hero
@@ -30,6 +33,35 @@ export default () => {
       primaryButtonUrl="https://krigs.network"
       primaryButtonTarget="blank"
     />
+
+    <MainFeature
+        subheading={<Subheading>Established Since 2014</Subheading>}
+        heading={
+          <>
+            We've been serving for
+            <wbr /> <HighlightedText>over 5 years.</HighlightedText>
+          </>
+        }
+        description={
+          <Description>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+            <br />
+            <br />
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </Description>
+        }
+        buttonRounded={false}
+        textOnLeft={false}
+        primaryButtonText="Latest Offers"
+        imageSrc={
+          "https://insured.finance/wp-content/uploads/2020/12/A-Blockchain-Based-P2P-Insurance-Marketplace.svg&auto=format&fit=crop&w=768&q=80"
+        }
+        imageCss={imageCss}
+        imageDecoratorBlob={true}
+        imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
+      />
+
         <FeatureWithSteps
         subheading={<Subheading>Make your move and to join the Binance Community Program and Enjoy maximum benefits</Subheading>}
         heading={
