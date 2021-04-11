@@ -82,6 +82,37 @@ export default () => {
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
       />
 
+<Features
+        heading={
+          <>
+            Why Choose <HighlightedText>Krigs Finance?.</HighlightedText>
+          </>
+        }
+        cards={[
+          {
+            imageSrc: shopIconImageSrc,
+            title: "Instant Payouts",
+            description: "In both the traditional finance industry and existing crypto insurance solutions, payout methods are complicated. It often takes months for compensation to arrive, if it arrives. Krigs Finance smart contracts ensure that payouts are made immediately after an event has occurred.",
+            url: "https://krigs.network"
+          },
+          {
+            imageSrc: chefIconImageSrc,
+            title: "Fully Collateralized",
+            description: "Krigs Finance coverage is underpinned by collateral which ensures that users can be compensated instantly if an adverse event occurs.",
+            url: "https://krigs.network"
+          },
+          {
+            imageSrc: celebrationIconImageSrc,
+            title: "Benefit from Market-Based Pricing",
+            description: "In the traditional finance industry, you are dealing with a counterparty who is rewarded if you overpay. With Insured Finance, you are dealing with a wide marketplace who are competing to give you the best terms on your insurance.",
+            url: "https://krigs.network"
+          }
+        ]}
+
+        imageContainerCss={tw`p-2!`}
+        imageCss={tw`w-20! h-20!`}
+      />
+
         <FeatureWithSteps
         subheading={<Subheading>Make your move and to join the Binance Community Program and Enjoy maximum benefits</Subheading>}
         heading={
