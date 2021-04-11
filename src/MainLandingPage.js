@@ -35,7 +35,7 @@ export default () => {
     />
 
     <MainFeature
-        subheading={<Subheading>BUY AND HOLD KRIGS</Subheading>}
+        subheading={<Subheading> A Blockchain-Based P2P Insurance Marketplace</Subheading>}
         heading={
           <>
             Making Blockchain
@@ -44,11 +44,10 @@ export default () => {
         }
         description={
           <Description>
-            Our protocol will build fungible assets and smart contracts to perfrom fin-business operations.
+           Underpinned by the Binance Smart Chain network, Krigs Finance is a P2P insurance marketplace. Market participants can easily request or provide coverage on a wide variety of cryptocurrency assets. Claims are fully collateralized and payouts are instant.<br />
             <br />
-            <br />
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </Description>
+            Krigs Finance is not an insurance company. The marketplace is operated entirely by its members and underpinned by the governance token KRIGS. Any user can request insurance and anyone can provide coverage. Krigs Finance is the first marketplace that allows users to specify their own coverage.
+           </Description>
         }
         buttonRounded={false}
         textOnLeft={false}
