@@ -41,6 +41,7 @@ export default () => {
           </LogoContainer>
           <LinksContainer>
            <Link href="https://krigsfinance.medium.com/introducing-krigs-finance-the-future-of-digital-asset-insurance-3a5090d68e93">What is Krigs?</Link>
+            <Link href="https://goswappcharts.web.app/?isbsc=true&tokenId=0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7" target="blank">Chart</Link>
             <Link href="https://krigsfinance.medium.com/" target="blank">Blog</Link>
             <Link href="https://t.me/krigs_finance" target="blank">Telegram</Link>
             <Link href="https://github.com/krigsfinance" target="blank">Github</Link>
