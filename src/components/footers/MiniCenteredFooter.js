@@ -6,6 +6,7 @@ import logo from "../../images/krigs-logo.png";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import { ReactComponent as GithubIcon } from "../../images/github-icon.svg";
 
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`
@@ -51,6 +52,9 @@ export default () => {
             </SocialLink>
             <SocialLink href="https://www.youtube.com/channel/UCuRHEVVbaNODx5EVlcUg8RQ">
               <YoutubeIcon />
+            </SocialLink>
+            <SocialLink href="github.com/krigsfinance">
+              <GithubIcon />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
