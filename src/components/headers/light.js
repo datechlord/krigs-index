@@ -73,9 +73,11 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
   const defaultLinks = [
     <NavLinks key={1}>
       <NavLink href="https://krigsfinance.medium.com/introducing-krigs-finance-the-future-of-digital-asset-insurance-3a5090d68e93" target="blank">What is Krigs?</NavLink>
+      <NavLink href="https://goswappcharts.web.app/?isbsc=true&tokenId=0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7">Chart</NavLink>
       <NavLink href="https://krigsfinance.medium.com/">Blog</NavLink>
       <NavLink href="https://t.me/krigs_finance">Telegram</NavLink>
       <NavLink href="/#roadmap">Roadmap</NavLink>
+      
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://krigs.network">Buy KRIGS</PrimaryLink>
     </NavLinks>
   ];
