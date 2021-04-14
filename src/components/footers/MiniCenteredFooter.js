@@ -40,8 +40,11 @@ export default () => {
             <LogoText>KRIGS <br/>FINANCE</LogoText>
           </LogoContainer>
           <LinksContainer>
-            <Link href="#">What is Krigs?</Link>
-            <Link href="#">Docs</Link>
+           <Link href="https://krigsfinance.medium.com/introducing-krigs-finance-the-future-of-digital-asset-insurance-3a5090d68e93">What is Krigs?</Link>
+            <Link href="https://krigsfinance.medium.com/" target="blank">Blog</Link>
+            <Link href="https://t.me/krigs_finance" target="blank">Telegram</Link>
+            <Link href="https://github.com/krigsfinance" target="blank">Github</Link>
+            <Link href="/#roadmap">Roadmap(Coming Soon)</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
@@ -53,7 +56,7 @@ export default () => {
             <SocialLink href="https://www.youtube.com/channel/UCuRHEVVbaNODx5EVlcUg8RQ">
               <YoutubeIcon />
             </SocialLink>
-            <SocialLink href="github.com/krigsfinance">
+            <SocialLink href="https://github.com/krigsfinance">
               <GithubIcon />
             </SocialLink>
           </SocialLinksContainer>
