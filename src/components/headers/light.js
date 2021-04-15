@@ -80,6 +80,8 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/#roadmap">Roadmap(Coming Soon)</NavLink>
       
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://krigs.network">Buy KRIGS</PrimaryLink>
+       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://krigs.network">ICO Launchpad</PrimaryLink>
+   
     </NavLinks>
   ];
 
