@@ -13,6 +13,7 @@ import chefIconImageSrc from "images/chef-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
 import shopIconImageSrc from "images/shop-icon.svg";
 import krigsmap from "images/krigs-map.png";
+import communitydriven from "images/community-driven.svg";
 import Features from "components/features/ThreeColSimple.js";
 
 
@@ -76,9 +77,7 @@ export default () => {
         buttonRounded={false}
         textOnLeft={false}
         primaryButtonText="Latest Offers"
-        imageSrc={
-          "https://insured.finance/wp-content/uploads/2020/12/A-Blockchain-Based-P2P-Insurance-Marketplace.svg"
-        }
+        imageSrc={communitydriven}
         imageCss={imageCss}
         imageDecoratorBlob={true}
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
