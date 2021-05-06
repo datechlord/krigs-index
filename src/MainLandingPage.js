@@ -26,7 +26,7 @@ export default () => {
     <Hero
       heading={<>Building the Future of Digital Asset <HighlightedText> Insurance</HighlightedText></>}
       description={<>A decentralized P2P insurance marketplace with easy claims and instant payouts. Powered by Binance Smart Chain.<br/><br/><h4>KRIGS SMART CONTRACT</h4><a href="https://bscscan.com/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7"><small>0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7</small></a></>}
-      imageSrc="https://finrocks.com/images/blockchain/hero-img.svg"
+      imageSrc="https://krigs.finance/images/krigs-map.png"
       imageCss={imageCss}
       imageDecoratorBlob={true}
       primaryButtonText="Join Krigs Token ICO"
