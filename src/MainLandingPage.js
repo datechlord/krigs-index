@@ -31,8 +31,8 @@ export default () => {
       imageSrc={krigsmap}
       imageCss={imageCss}
       imageDecoratorBlob={true}
-      primaryButtonText="Join Krigs Token ICO"
-      primaryButtonUrl="https://krigs.network"
+      primaryButtonText="Live Chart"
+      primaryButtonUrl="https://dex.guru/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7-bsc"
       primaryButtonTarget="blank"
     />
 
