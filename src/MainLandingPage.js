@@ -76,7 +76,7 @@ export default () => {
         }
         buttonRounded={false}
         textOnLeft={false}
-        primaryButtonText="Latest Offers"
+        primaryButtonText={false}
         imageSrc={communitydriven}
         imageCss={imageCss}
         imageDecoratorBlob={true}
