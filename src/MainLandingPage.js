@@ -26,7 +26,7 @@ export default () => {
   return (
     <AnimationRevealPage>
     <Hero
-      heading={<>Building the Future of Digital Asset <HighlightedText> Insurance</HighlightedText></>}
+      heading={<>Building the Future of Digital Asset <HighlightedText> Insurance </HighlightedText></>}
       description={<>A decentralized P2P insurance marketplace with easy claims and instant payouts. Powered by Binance Smart Chain.<br/><br/><h4>KRIGS SMART CONTRACT</h4><a href="https://bscscan.com/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7"><small>0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7</small></a></>}
       imageSrc={krigsmap}
       imageCss={imageCss}
@@ -34,6 +34,8 @@ export default () => {
       primaryButtonText="Live Chart"
       primaryButtonUrl="https://dex.guru/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7-bsc"
       primaryButtonTarget="blank"
+      SecondaryButtonText="Buy Now"
+      SecondaryButtonUrl="#"
     />
 
     <MainFeature
