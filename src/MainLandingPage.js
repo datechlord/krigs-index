@@ -39,7 +39,7 @@ export default () => {
 <Features
         heading={
           <>
-            Why Choose <HighlightedText>Krigs Finance?.</HighlightedText>
+            Why Choose <HighlightedText>KRIGS.</HighlightedText>
           </>
         }
         cards={[
