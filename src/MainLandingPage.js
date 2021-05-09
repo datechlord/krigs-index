@@ -65,7 +65,7 @@ export default () => {
 
         imageContainerCss={tw`p-2!`}
         imageCss={tw`w-20! h-20!`}
-      />J
+      />
 
     <MainFeature
         subheading={<Subheading> A Blockchain-Based P2P Insurance Marketplace</Subheading>}
