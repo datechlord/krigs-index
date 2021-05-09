@@ -78,7 +78,8 @@ export default () => {
         }
         buttonRounded={false}
         textOnLeft={false}
-        primaryButtonText={false}
+        primaryButtonText="Trade KRIGS"
+        primaryButtonURL="https://dex.guru/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7-bsc"
         imageSrc={communitydriven}
         imageCss={imageCss}
         imageDecoratorBlob={true}
