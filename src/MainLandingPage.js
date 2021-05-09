@@ -73,7 +73,7 @@ export default () => {
             <br />
             <h1><b>Rug Pull Cover</b></h1>
             <hr />
-            Hedge DeFi Positions by covering Rug Pull possibilities. If a rug pull happens, Insured Finance users are covered.
+            Hedge DeFi Positions by covering Rug Pull possibilities. If a rug pull happens, Krigs Finance users are covered.
            </Description>
         }
         buttonRounded={false}
