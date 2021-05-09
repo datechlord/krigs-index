@@ -6,8 +6,6 @@ import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
-import FeatureWithSteps from "components/features/TwoColWithSteps.js";
-import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
 import MainFeature from "components/features/TwoColWithButton.js";
 import chefIconImageSrc from "images/chef-icon.svg";
 import celebrationIconImageSrc from "images/celebration-icon.svg";
