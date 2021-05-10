@@ -35,7 +35,7 @@ export default () => {
       SecondaryButtonText="Buy Now"
       SecondaryButtonUrl="#"
     />
-
+<FeatureStats/>
 <Features
         heading={
           <>
@@ -115,7 +115,7 @@ export default () => {
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
       />
 
-         <FeatureStats/>
+         
      <FAQ
       imageSrc={customerSupportIllustrationSrc}
       imageContain={true}
