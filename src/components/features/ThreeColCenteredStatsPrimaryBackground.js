@@ -20,28 +20,7 @@ export default ({
   subheading = "",
   heading = "Frictionless Yield Generation. Hold and Earn.",
   description = "KRIGS works by applying a 1% fee to each transaction and instantly splitting that fee among all holders of the token. Holders do not need to stake or wait for fees to be delivered. Fees are awarded by the smart contract and are immediately reflected in the holders balance.",
-  stats = [
-    {
-      key: "Token Name",
-      value: "Krigs Finance",
-    },
-    {
-      key: "Ticker Symbol",
-      value: "KRIGS",
-    },
-
-    {
-      key: "Token Supply",
-      value: "10,000,000",
-    },
-
-    {
-      key: "Token Price",
-      value: "$0.50",
-    },
-
-    
-  ]
+ 
 }) => {
   return (
     <Container>
@@ -51,14 +30,6 @@ export default ({
           <Heading>{heading}</Heading>
           {description && <Description>{description}</Description>}
         </HeadingContainer>
-        <StatsContainer>
-          {stats.map((stat, index) => (
-            <Stat key={index}>
-              <StatValue>{stat.value}</StatValue>
-              <StatKey>{stat.key}</StatKey>
-            </Stat>
-          ))}
-        </StatsContainer>
       </ContentWithPaddingXl>
     </Container>
   );
