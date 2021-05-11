@@ -14,7 +14,7 @@ const Description = tw(SectionDescription)`text-gray-400 text-center mx-auto max
 export default ({
   subheading = "Passive income in KRIGS Community",
   heading = "Enhanced ROI",
-  description = "Innovations in the krigs.finance smart contract allow certain addresses, like the Uniswap pool or exchange wallets, to be blocked from earning fees. Because of this, 100% of the fees generated go to holders of the token. The percentage of fees you earn is calculated by the percentage of KRIGS that you own among holders. This generates a much higher yield than would be possible otherwise.",
+  description = "Innovations in the krigs.finance smart contract allow certain addresses, like the Pancakeswap pool or exchange wallets, to be blocked from earning fees. Because of this, 100% of the fees generated go to holders of the token. The percentage of fees you earn is calculated by the percentage of KRIGS that you own among holders. This generates a much higher yield than would be possible otherwise.",
 }) => {
   return (
     <Container>
