@@ -9,7 +9,7 @@ const Container = tw(ContainerBase)`my-8 lg:my-10 bg-primary-1000 text-gray-100 
 const HeadingContainer = tw.div``;
 const Heading = tw(SectionHeading)`sm:text-3xl bg-primary-800 md:text-4xl lg:text-5xl`;
 const Subheading = tw(SubheadingBase)`text-primary-800 text-center`;
-const Description = tw(SectionDescription)`text-primary-400 text-center mx-auto max-w-screen-md`;
+const Description = tw(SectionDescription)`text-primary-400 text-justify mx-auto max-w-screen-md`;
 
 export default ({
   subheading = "Passive income in KRIGS Community",
