@@ -26,7 +26,7 @@ module.exports = {
         700: '#5011cc',
         800: '#460fb3',
         900: '#3c0d99',
-        1000: 'rgb(13 108 108)',
+        1000: 'linear-gradient(-19deg, #4776e6 10%, #8e54e9)',
       },
 
       secondary: {
