@@ -7,12 +7,8 @@ import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackgr
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import MainFeature from "components/features/TwoColWithButton.js";
-import chefIconImageSrc from "images/chef-icon.svg";
-import celebrationIconImageSrc from "images/celebration-icon.svg";
-import shopIconImageSrc from "images/shop-icon.svg";
 import krigsmap from "images/krigs-map.png";
 import communitydriven from "images/community-driven.svg";
-import Features from "components/features/ThreeColSimple.js";
 
 
 export default () => {
@@ -46,6 +42,8 @@ export default () => {
         }
         description={
           <Description>
+            <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-6" lcw-coin="BTC" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="1" ></div>
+
            Underpinned by the Binance Smart Chain network, Krigs Finance is a P2P insurance marketplace. Market participants can easily request or provide coverage on a wide variety of cryptocurrency assets. Claims are fully collateralized and payouts are instant.<br />
             <br />
             <br />
