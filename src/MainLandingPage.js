@@ -4,6 +4,7 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import Hero from "components/hero/TwoColumnWithVideo.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
+import FeatureStats2 from "components/features/ThreeColCenteredStatsPrimaryBackground-2.js";
 import FAQ from "components/faqs/SimpleWithSideImage.js";
 import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import MainFeature from "components/features/TwoColWithButton.js";
@@ -32,6 +33,7 @@ export default () => {
       SecondaryButtonUrl="#"
     />
 <FeatureStats/>
+<FeatureStats2/>
     <MainFeature
         subheading={<Subheading> A Blockchain-Based P2P Insurance Marketplace</Subheading>}
         heading={
