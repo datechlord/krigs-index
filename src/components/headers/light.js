@@ -72,10 +72,10 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-       <NavLink href="/#">Home</NavLink>
+      <NavLink href="https://bscscan.com/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7">Contract</NavLink>
       <NavLink href="https://dex.guru/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7-bsc" target="blank">Live Chart</NavLink>
       <NavLink href="https://krigsfinance.medium.com/" target="blank">Blog</NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://dex.guru/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7-bsc">Buy Now</PrimaryLink>
+      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="https://dex.guru/token/0xfa90a78e63e9bfe95c1270d8be0cc36c2fe6c2c7-bsc">Migrate to Krigs</PrimaryLink>
    
     </NavLinks>
   ];
