@@ -105,7 +105,7 @@ export const components = {
     RestaurantLandingPage: {
       component: RestaurantLandingPage,
       imageSrc: RestaurantLandingPageImageSrc,
-      url: "/nft",
+      url: "/components/nft",
     },
     HotelTravelLandingPage: {
       component: HotelTravelLandingPage,
