@@ -83,18 +83,6 @@ export default () => {
         imageDecoratorBlob={true}
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
       />
-         
-     <FAQ
-      imageSrc={customerSupportIllustrationSrc}
-      imageContain={true}
-      imageShadow={false}
-      subheading="FAQs"
-      heading={
-        <>
-          Do you have <span tw="text-primary-500">Questions ?</span>
-        </>
-      }
-    />
       <Footer />
     </AnimationRevealPage>
     
