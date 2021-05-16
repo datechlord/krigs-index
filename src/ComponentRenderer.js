@@ -120,7 +120,7 @@ export const components = {
     ServiceLandingPage: {
       component: ServiceLandingPage,
       imageSrc: ServiceLandingPageImageSrc,
-      url: "/components/landingPages/ServiceLandingPage",
+      url: "/ServiceLandingPage",
     },
     EventLandingPage: {
       component: EventLandingPage,
