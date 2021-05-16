@@ -5,8 +5,6 @@ import Hero from "components/hero/TwoColumnWithVideo.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 import FeatureStats from "components/features/ThreeColCenteredStatsPrimaryBackground.js";
 import FeatureStats2 from "components/features/ThreeColCenteredStatsPrimaryBackground-2.js";
-import FAQ from "components/faqs/SimpleWithSideImage.js";
-import customerSupportIllustrationSrc from "images/customer-support-illustration.svg";
 import MainFeature from "components/features/TwoColWithButton.js";
 import krigsmap from "images/krigs-map.png";
 import communitydriven from "images/community-driven.svg";
