@@ -8,13 +8,22 @@ import FeatureStats2 from "components/features/ThreeColCenteredStatsPrimaryBackg
 import MainFeature from "components/features/TwoColWithButton.js";
 import krigsmap from "images/krigs-map.png";
 import communitydriven from "images/community-driven.svg";
-
+import { BscConnector } from '@binance-chain/bsc-connector'
+ 
 
 export default () => {
     const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
     const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
     const Description = tw.span`inline-block mt-8`;
     const imageCss = tw`rounded-4xl`;
+    const bsc = new BscConnector({
+      supportedChainIds: [56, 97] // later on 1 ethereum mainnet and 3 ethereum ropsten will be supported
+    });
+
+  await bsc.activate();
+  await bsc.getAccount();
+  await bsc.getChainId();
+
    
   return (
     <AnimationRevealPage>
